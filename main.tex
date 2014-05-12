@@ -1,0 +1,43 @@
+\documentclass{beamer}
+
+\usetheme{Warsaw}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+
+\AtBeginSection[]{
+  \begin{frame}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\AtBeginSubsection[]{
+  \begin{frame}
+    \tableofcontents[currentsection, currentsubsection]
+  \end{frame}
+}
+
+\title{De por qué ED debió migrar a la web}
+\subtitle{Ventajas de usar Frameworks y herramientas web para distribuir
+          soluciones de desarrollo}
+\author{Carlos Ledezma}
+\institute{Akdemia}
+\date{15/05/2014}
+
+\begin{document}
+  \frame{\titlepage}
+
+  \frame{\tableofcontents}
+
+  \section{Acerca de mí}
+    \input{about_me}
+
+  \section{La historia de ED}
+    \input{eds_story}
+
+  \section{Ayudando a ED}
+    \input{helping_ed}
+
+  \section{Despedida y preguntas}
+    \subsection{Conclusiones}
+\end{document}
