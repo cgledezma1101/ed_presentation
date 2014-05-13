@@ -1,27 +1,5 @@
-\begin{frame}{Salvemos a ED usando RoR}
-  ¿Qué es Ruby on Rails?
-  \begin{tabular}{l c}
-    \parbox{0.5\textwidth}{
-      \begin{itemize}
-        \item Framework de desarrollo web.
-        \item Basado en Ruby.
-        \item M.V.C.
-        \item CoC
-        \item Incluye todos los procesos del desarrollo web.
-        \item Apoyado por gemas.
-      \end{itemize}
-    } &
-    \raisebox{-0.5\totalheight}{\includegraphics[scale=0.2]{img/ror}}
-  \end{tabular}
-\end{frame}
-
-\begin{frame}{El modelo M.V.C. de RoR}
-  \centering
-  \includegraphics[scale=0.3]{img/railsmvc}
-\end{frame}
-
-\begin{frame}[fragile]{Convenciones sobre la configuración}
-  Lo básico:
+\frametitle{Convenciones sobre la configuración}
+Lo básico:
 
   \pause
 
@@ -81,20 +59,3 @@ end
 ...
     \end{lstlisting}
   \end{tabular}
-\end{frame}
-
-\begin{frame}{Apoyo de las gemas (demos)}
-  \pause
-  \begin{itemize}
-    \item Squeel $\rightarrow$ Mejor SQL. \pause
-    \item Pry $\rightarrow$ Depuración. \pause
-    \item CanCan $\rightarrow$ Autorización. \pause
-    \item Authlogic $\rightarrow$ Autenticación. \pause
-    \item simple\_form, prawn, nested\_form, spreadsheet, haml, zeus,
-    jquery\_rails...
-  \end{itemize}
-
-  \begin{center}
-    \textbf{INVIERTE TU TIEMPO EN TU PROYECTO}
-  \end{center}
-\end{frame}
