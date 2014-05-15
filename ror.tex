@@ -76,7 +76,7 @@ end
 <!-- app/views/users/index.html.erb -->
 ...
 <% @users.each do |user| % >
-  <p> <%= user.name % > </p>
+  <p> <% = user.name % > </p>
 <% end % >
 ...
     \end{lstlisting}
@@ -84,15 +84,21 @@ end
 \end{frame}
 
 \begin{frame}{Apoyo de las gemas (demos)}
-  \pause
-  \begin{itemize}
-    \item Squeel $\rightarrow$ Mejor SQL. \pause
-    \item Pry $\rightarrow$ Depuración. \pause
-    \item CanCan $\rightarrow$ Autorización. \pause
-    \item Authlogic $\rightarrow$ Autenticación. \pause
-    \item simple\_form, prawn, nested\_form, spreadsheet, haml, zeus,
-    jquery\_rails...
-  \end{itemize}
+  \begin{tabular}{l l}
+    \raisebox{-0.5\totalheight}{\includegraphics[scale=0.4]{img/rails_gems}} &
+    \pause 
+
+    \parbox{0.5\textwidth}{
+      \begin{itemize}
+        \item Squeel $\rightarrow$ Mejor SQL. \pause
+        \item Pry $\rightarrow$ Depuración. \pause
+        \item CanCan $\rightarrow$ Autorización. \pause
+        \item Authlogic $\rightarrow$ Autenticación. \pause
+        \item simple\_form, prawn, nested\_form, spreadsheet, haml, zeus,
+        jquery\_rails...
+      \end{itemize}
+    }
+  \end{tabular}
 
   \begin{center}
     \textbf{INVIERTE TU TIEMPO EN TU PROYECTO}
